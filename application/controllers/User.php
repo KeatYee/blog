@@ -77,4 +77,8 @@ class User extends CI_Controller{
         $this->session->set_flashdata('success', 'Record deleted successfully');
         redirect(base_url().'index.php/User/index');
     }
-        
+        
+
+}
+
+?>
